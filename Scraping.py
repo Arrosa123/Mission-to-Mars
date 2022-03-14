@@ -106,7 +106,7 @@ def mars_facts():
     #df will print table with formatted descriptions
 
     # Convert dataframe into HTML format, add bootstrap
-    return df.to_html()
+    return df.to_html(classes="table table-striped")
     ##End of tables
 
 ## HEMISPHERES 
